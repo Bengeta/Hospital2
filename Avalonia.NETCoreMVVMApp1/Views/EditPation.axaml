@@ -1,0 +1,21 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Avalonia.NETCoreMVVMApp1.Views.EditPation"
+        Title="EditPation">
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Width="300">
+        <TextBlock Text="Name" />
+        <TextBox Text="{Binding Name}" />
+        <TextBlock Text="Day" />
+        <TextBox Text="{Binding Day ,Mode=TwoWay}" />
+        <TextBlock Text="TimeStart" />
+        <TextBox Text="{Binding TimeStart}" />
+        <TextBlock Text="TimeEnd " />
+        <TextBox Text="{Binding TimeEnd}" />
+        <Button Content="{Binding AddButton}" Click="Button_OnClick_Add" />
+        <Button Content="Delete" Click="Button_OnClick_Delete" />
+        <Button Content="Back" Click="Button_OnClick_Back" />
+    </StackPanel>
+</Window>

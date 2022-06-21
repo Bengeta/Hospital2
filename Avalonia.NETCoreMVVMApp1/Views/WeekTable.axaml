@@ -1,0 +1,40 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Avalonia.NETCoreMVVMApp1.Views.WeekTable"
+        Title="WeekTable">
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Width="300">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="300">
+            <TextBlock Text="{Binding Monday}"/>
+            <Button Content="Open Table on day" Command="{Binding Button_OpenDay}" CommandParameter="0"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="300">
+            <TextBlock Text="{Binding Tuesday}"/>
+            <Button Content="Open Table on day" Command="{Binding Button_OpenDay}" CommandParameter="1"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="300">
+            <TextBlock Text="{Binding Wednesday}"/>
+            <Button Content="Open Table on day" Command="{Binding Button_OpenDay}" CommandParameter="2"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="300">
+            <TextBlock Text="{Binding Thursday}"/>
+            <Button Content="Open Table on day" Command="{Binding Button_OpenDay}" CommandParameter="3"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="300">
+            <TextBlock Text="{Binding Friday}"/>
+            <Button Content="Open Table on day" Command="{Binding Button_OpenDay}" CommandParameter="4"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="300">
+            <TextBlock Text="{Binding Saturday}"/>
+            <Button Content="Open Table on day" Command="{Binding Button_OpenDay}" CommandParameter="5"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="300">
+            <TextBlock Text="{Binding Sunday}"/>
+            <Button Content="Open Table on day" Command="{Binding Button_OpenDay}" CommandParameter="6"/>
+        </StackPanel>
+        <Button Content="Back" Click="Button_OnClick_Back" />
+        </StackPanel>
+    
+</Window>

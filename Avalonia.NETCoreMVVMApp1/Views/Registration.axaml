@@ -1,0 +1,19 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Avalonia.NETCoreMVVMApp1.Views.Registration">
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Width="300">
+        <TextBlock Text="Name" />
+        <TextBox Text="{Binding Name}" />
+        <TextBlock Text="Email" />
+        <TextBox Text="{Binding Email ,Mode=TwoWay}" />
+        <TextBlock Text="Password" />
+        <TextBox Text="{Binding Password}" PasswordChar="*" />
+        <TextBlock Text="Password again" />
+        <TextBox Text="{Binding PasswordAgain}" PasswordChar="*" />
+        <Button Content="Sign Up" Click="Button_OnClick"/>
+        <Button Content="Sign In" Click="Button_OnClick_Back"/>
+    </StackPanel>
+</Window>

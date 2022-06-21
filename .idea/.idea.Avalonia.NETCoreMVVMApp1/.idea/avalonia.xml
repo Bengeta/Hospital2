@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="Avalonia.NETCoreMVVMApp1/App.axaml" value="Avalonia.NETCoreMVVMApp1/Avalonia.NETCoreMVVMApp1.csproj" />
+        <entry key="Avalonia.NETCoreMVVMApp1/MainWindow.axaml" value="Avalonia.NETCoreMVVMApp1/Avalonia.NETCoreMVVMApp1.csproj" />
+        <entry key="Avalonia.NETCoreMVVMApp1/ViewModels/MainWindow.axaml" value="Avalonia.NETCoreMVVMApp1/Avalonia.NETCoreMVVMApp1.csproj" />
+        <entry key="Avalonia.NETCoreMVVMApp1/Views/DayTable.axaml" value="Avalonia.NETCoreMVVMApp1/Avalonia.NETCoreMVVMApp1.csproj" />
+        <entry key="Avalonia.NETCoreMVVMApp1/Views/EditPation.axaml" value="Avalonia.NETCoreMVVMApp1/Avalonia.NETCoreMVVMApp1.csproj" />
+        <entry key="Avalonia.NETCoreMVVMApp1/Views/MainWindow.axaml" value="Avalonia.NETCoreMVVMApp1/Avalonia.NETCoreMVVMApp1.csproj" />
+        <entry key="Avalonia.NETCoreMVVMApp1/Views/Registration.axaml" value="Avalonia.NETCoreMVVMApp1/Avalonia.NETCoreMVVMApp1.csproj" />
+        <entry key="Avalonia.NETCoreMVVMApp1/Views/SignIn.axaml" value="Avalonia.NETCoreMVVMApp1/Avalonia.NETCoreMVVMApp1.csproj" />
+        <entry key="Avalonia.NETCoreMVVMApp1/Views/WeekTable.axaml" value="Avalonia.NETCoreMVVMApp1/Avalonia.NETCoreMVVMApp1.csproj" />
+        <entry key="Avalonia.NETCoreMVVMApp1/views.axaml" value="Avalonia.NETCoreMVVMApp1/Avalonia.NETCoreMVVMApp1.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
